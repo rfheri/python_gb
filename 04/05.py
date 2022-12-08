@@ -5,8 +5,8 @@
 Подсказка: использовать функцию reduce().
 """
 
-
 from functools import reduce
-numbers = [i for i in range(100,1001)]
-all = reduce(lambda x,y: x*y, numbers)
+
+numbers = [i for i in range(100, 1001)]
+all = reduce(lambda x, y: x * y, numbers)
 print(all)

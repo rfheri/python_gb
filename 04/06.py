@@ -21,10 +21,8 @@ for i in count(generator[0]):
 incycle = ['sdf', 3, 'thtthft', 324324, 22, '34d']
 cnt = 0
 for i in cycle(incycle):
-    if cnt > len(incycle)*2:
+    if cnt > len(incycle) * 2:
         break
     else:
         print(i)
         cnt += 1
-
-
